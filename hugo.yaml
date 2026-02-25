@@ -44,6 +44,21 @@ params:
       index: content
   externalLinkDecoration: true
 
+  defaultContentLanguage: en
+  languages:
+    en:
+      languageName: English
+      weight: 1
+      title: CSEClass25
+    hi:
+      languageName: Hindi
+      weight: 2
+      title: CSEClass25
+    mr:
+      languageName: Marathi
+      weight: 3
+      title: CSEClass25
+
   footer:
     enable: true
     displayCopyright: true
