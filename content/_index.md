@@ -5,8 +5,12 @@ title: ''
 ---
 # We see, we learn, we create
 
-This is a text on the index page
 
+
+Hello everyone this is Our class website where we share our notes,project ideas,and help in building a good portfolio.
+This website is meant for helping other student in class and create a good networking with each other.
+Hope It will help you All
+  #  Thank You
 
 
 
