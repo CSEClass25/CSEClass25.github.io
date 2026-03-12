@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/test001/</loc>
+    <loc>https://CSEClass25.github.io/</loc>
     <lastmod>2026-02-25T15:17:34+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://CSEClass25.github.io/blog/test001/</loc>
+    <lastmod>2026-02-25T15:17:34+00:00</lastmod>
+  </url><url>
+    <loc>https://CSEClass25.github.io/about/</loc>
     <lastmod>2026-02-24T10:58:49+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://CSEClass25.github.io/blog/</loc>
     <lastmod>2026-02-24T10:58:31+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/</loc>
+    <loc>https://CSEClass25.github.io/notes/</loc>
     <lastmod>2026-02-24T03:27:04+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-02-24T03:26:46+00:00</lastmod>
+    <loc>https://CSEClass25.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://CSEClass25.github.io/tags/</loc>
   </url>
 </urlset>

@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CSEClass25 – Blogs</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://CSEClass25.github.io/blog/</link>
     <description>Recent content in Blogs on CSEClass25</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Feb 2026 10:58:31 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://CSEClass25.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>Test001</title>
-      <link>http://localhost:1313/blog/test001/</link>
+      <link>https://CSEClass25.github.io/blog/test001/</link>
       <pubDate>Wed, 25 Feb 2026 15:17:34 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/test001/</guid>
+      <guid>https://CSEClass25.github.io/blog/test001/</guid>
       <description>
         
         
