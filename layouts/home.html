@@ -1,0 +1,84 @@
+{{ define "main" }}
+<section class="section container-fluid mt-n3 pb-5">
+  <div class="row justify-content-center">
+    <div class="col-12 col-lg-12 text-center">
+      <h1 class="display-4 font-weight-bold mb-3">{{ .Title }}</h1>
+    </div>
+    <div class="col-12 col-md-10 col-lg-9 col-xl-8 text-center">
+      <p class="lead text-muted">{{ .Params.lead | safeHTML }}</p>
+
+      <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3 px-4" href="/docs/" role="button">
+        Browse Class Notes
+      </a>
+
+      <div class="mt-4 markdown-content text-start text-md-center">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ define "sidebar-prefooter" }}
+  {{ if site.Params.doks.backgroundDots -}}
+  <div class="d-flex justify-content-start">
+    <div class="bg-dots"></div>
+  </div>
+  {{ end -}}
+
+  <section class="section section-md section-features py-5">
+    <div class="container">
+      <div class="row justify-content-center g-4">
+
+        <div class="col-12 col-md-6 col-lg-5">
+          <div class="p-4 border rounded h-100 feature-card">
+            <h2 class="h4 text-primary">📝 Weekly Lecture Notes</h2>
+            <p class="text-muted">Missed a day or reviewing for tests? Dive straight into our chronologically organized topic summaries and slide decks.</p>
+            <a href="/docs/" class="font-weight-bold text-decoration-none card-link">View Notes →</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-5">
+          <div class="p-4 border rounded h-100 feature-card">
+            <h2 class="h4 text-success">📅 Assignments & Tasks</h2>
+            <p class="text-muted">Stay updated with upcoming problem sets, project specifications, submission deadlines, and grading rubrics.</p>
+            <a href="/docs/" class="font-weight-bold text-decoration-none card-link">Check Deadlines →</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-5">
+          <div class="p-4 border rounded h-100 feature-card">
+            <h2 class="h4 text-warning">📖 Recommended Reading</h2>
+            <p class="text-muted">Access external resources, shared textbooks, cheat sheets, and deep-dive reading guides curated for the curriculum.</p>
+            <a href="/docs/" class="font-weight-bold text-decoration-none card-link">Explore Resources →</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-5">
+          <div class="p-4 border rounded h-100 feature-card">
+            <h2 class="h4 text-danger">🔥 Exam Preparation</h2>
+            <p class="text-muted">Ace your midterms and finals with past question papers, mock exam patterns, and targeted practice problems.</p>
+            <a href="/docs/" class="font-weight-bold text-decoration-none card-link">Start Practice →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+{{ end }}
+
+{{ define "sidebar-footer" }}
+{{ if site.Params.doks.sectionFooter -}}
+<section class="section section-md container-fluid py-5 border-top">
+  <div class="row justify-content-center text-center">
+    <div class="col-12 col-lg-7">
+      <h2 class="mt-2">Ready to study?</h2>
+      <p class="text-muted mb-4">Jump straight into the documentation structure to clear your doubts.</p>
+      <a class="btn btn-outline-primary rounded-pill px-5 py-2" href="/docs/prologue/introduction/" role="button">
+        Open Syllabus Overview
+      </a>
+    </div>
+  </div>
+</section>
+{{ end -}}
+{{ end }}
